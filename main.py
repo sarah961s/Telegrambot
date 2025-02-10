@@ -155,7 +155,7 @@ def main():
             listen="0.0.0.0",          # الاستماع لجميع العناوين
             port=8443,                 # تأكد من أن المنفذ مفتوح ويقبل الاتصالات (قد تحتاج لتغييره حسب مزود الخدمة)
             url_path=token,            # استخدم التوكن كجزء من URL endpoint
-            webhook_url="https://telegrambot-x9zt.onrender.com" + token,  # الرابط الكامل الذي سيستخدمه Telegram لإرسال التحديثات
+            webhook_url= https://telegrambot-x9zt.onrender.com/7734332111:AAHCqgBEdFQB6pr382vmjJzdHQkhXSBRGm8,  # الرابط الكامل الذي سيستخدمه Telegram لإرسال التحديثات
             allowed_updates=Update.ALL_TYPES
         )
 
